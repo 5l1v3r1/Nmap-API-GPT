@@ -6,7 +6,7 @@ from flask_restful import Api, Resource
 import re
 import openai
 
-openai.api_key = "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"
+openai.api_key = "__API__KEY__"
 model_engine = "text-davinci-003"
 
 app = Flask(__name__)
@@ -350,7 +350,7 @@ class p1test(Resource):
 api.add_resource(
     p1, "/api/p1/<string:username>:<string:password>/<string:url>")
 api.add_resource(
-    p1test, "/api/test/<string:username>:<string:password>/<string:url>")
+    p1test, "/api/gpt/<string:username>:<string:password>/<string:url>")
 api.add_resource(
     p2, "/api/p2/<string:username>:<string:password>/<string:url>")
 api.add_resource(
