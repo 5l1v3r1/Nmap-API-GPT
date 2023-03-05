@@ -16,6 +16,7 @@ This is a implementation for our college PCL project which is still under develo
   GET /api/p3/{username}:{password}/{target}
   GET /api/p4/{username}:{password}/{target}
   GET /api/p5/{username}:{password}/{target}
+  GET /api/gpt/{username}:{password}/{target}
 ```
 
 | Parameter | Type     | Description                |
