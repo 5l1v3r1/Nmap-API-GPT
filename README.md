@@ -10,7 +10,7 @@ This is a implementation for our college PCL project which is still under develo
 
 #### Get all items
 
-```http
+```
   GET /api/p1/{username}:{password}/{target}
   GET /api/p2/{username}:{password}/{target}
   GET /api/p3/{username}:{password}/{target}
